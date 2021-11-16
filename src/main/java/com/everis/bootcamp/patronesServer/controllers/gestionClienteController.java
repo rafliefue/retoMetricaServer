@@ -28,7 +28,7 @@ public class gestionClienteController {
 		return new ResponseEntity<String>(HttpStatus.OK).ok(status);
 	}
 	
-	@GetMapping("/half_open")
+	@GetMapping("/half-open")
 	public ResponseEntity<String> index3(){
 		status = "HALF_OPEN";
 		logger.info("ESTADO: "+ status);
