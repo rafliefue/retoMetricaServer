@@ -10,6 +10,8 @@ public class PatronesServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PatronesServerApplication.class, args);
+		
+		
 	}
 
 }
